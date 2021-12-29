@@ -99,7 +99,7 @@ pytest-django: https://pytest-django.readthedocs.io/en/latest/
 Установить зависимости:
 
 ```bash
-pip install -r requirements-dev.txt
+pip install -r requirements.txt
 ```
 
 Вам необходимо будет создать базу в postgres и прогнать миграции:
