@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': os.getenv('DB_ENGINE', default='django.db.backends.sqlite3'),
         'NAME': os.getenv('DB_NAME', default=BASE_DIR / 'db.sqlite3'),
-        'USER': os.getenv('DB_USER', default='webchat'),
-        'PASSWORD': os.getenv('DB_PASSWORD', default='webchat'),
+        'USER': os.getenv('DB_USER', default='test'),
+        'PASSWORD': os.getenv('DB_PASSWORD', default='test'),
         'HOST': os.getenv('DB_HOST', default='localhost'),
         'PORT': int(os.getenv('DB_PORT', default=5432)),
         'ATOMIC_REQUESTS': True,
